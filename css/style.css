@@ -334,6 +334,7 @@ body{
     background-repeat: no-repeat;
 	color: #fff;
 	padding: 40px 20px;
+    display: none;
 }
 
 .counters .container {
@@ -457,7 +458,7 @@ body{
   }
 
 .communicate{
-    text-align: center;
+    text-align: left;
     align-items: center;
     background-image: url(../images/img3.jpg);
     background-repeat: no-repeat;
@@ -466,6 +467,7 @@ body{
     color: #fff;
     min-height: 35vh;
     padding: 40px 20px;
+    display: none;
 }  
 
 .communicate h3{
@@ -481,6 +483,7 @@ body{
     position: relative;
     padding: 90px 0 60px 0;
     background: #f2f2f2;
+    display: none;
 }
 
 .testimonials .testimonial-item {
@@ -552,6 +555,7 @@ body{
     text-align: center;
     margin-top: -10rem;
     margin-bottom: -10rem;
+    display: none;
 }
 
 .clients .section-header p {
@@ -1354,4 +1358,7 @@ body{
         .faq .row .accordion-container{
             width: 100%;
         }
+}
+.projects {
+    display: none;
 }
